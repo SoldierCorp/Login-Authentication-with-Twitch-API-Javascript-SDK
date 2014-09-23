@@ -1,6 +1,8 @@
 Login/Authentication with Twitch API Javascript-SDK
 ===================================================
 
+![Authentication Twitch API](twitch_developers_program.png?raw=true "Authentication Twitch API")
+
 A simple login/authentication using the Javscript SDK of Twitch API
 
 You can see the video of this code here: 
