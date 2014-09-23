@@ -5,7 +5,7 @@ Login/Authentication with Twitch API Javascript-SDK
 
 A simple login/authentication using the Javscript SDK of Twitch API
 
-You can see the video of this code here: 
+You can see the video of this code here: http://youtu.be/0G0MY-vs_Hc
 
 Twitter: http://twitter.com/_soldier
 
