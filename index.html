@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API Twitch Login</title>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://ttv-api.s3.amazonaws.com/twitch.min.js"></script>
+	<script src="main.js"></script>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<style>
+		body {
+			margin: 50px auto;
+			text-align: center;
+			width: 450px;
+		}
+		h1 {
+			margin-bottom: 30px;
+		}
+		strong,
+		img,
+		a {
+			display: block;
+		}
+		img {
+			margin: 10px auto;
+			width: 100px;
+		}
+		.twitch-connect {
+			width: auto;
+		}
+		#btn-logout {
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Login con la API de Twitch JavaScript SDK</h1>
+	<a href="#"><img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect"/></a>
+
+	<div id="login-info">
+		<strong></strong>
+		<img id="picture" src="" alt="">
+		<a id="visit" href="#"></a>
+
+		<a id="btn-logout" class="btn btn-danger twitch-disconnect" href="#">Logout</a>
+	</div>
+</body>
+</html>
